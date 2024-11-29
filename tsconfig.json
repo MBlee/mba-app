@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./bin",
+    "target": "es2015",
+    
+    "declaration": true,
+    "module": "node16",
+    "moduleDetection": "force",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true
+  }
+}
