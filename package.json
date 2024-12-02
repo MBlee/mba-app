@@ -1,6 +1,6 @@
 {
   "name": "@coswars/mba-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "项目模板命令行",
   "main": "./bin/index.js",
   "type": "module",
