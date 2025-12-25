@@ -1,3 +1,6 @@
+export declare const monorepoGits: {
+    default: string;
+};
 export declare const expressGits: {
     default: string;
 };

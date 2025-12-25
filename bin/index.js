@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from 'commander';
-import { help } from './module/help.js';
+import { monorepo } from './module/monorepo.js';
 import { express } from './module/express.js';
 import { next } from './module/next.js';
 import { react } from './module/react.js';
@@ -10,7 +10,7 @@ cmd.useCmd = function (cmd) {
 };
 cmd.version('1.0.0');
 /* 命令行模块 */
-cmd.useCmd(help);
+cmd.useCmd(monorepo);
 cmd.useCmd(express);
 cmd.useCmd(next);
 cmd.useCmd(react);

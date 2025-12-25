@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "tsc --watch",
-    "deploy": "tsc | npm link",
+    "deploy": "rmdir /s/q bin | tsc | npm link",
     "un-deploy": "npm unlink -g"
   },
   "bin": {
